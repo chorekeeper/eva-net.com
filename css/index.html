@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evangelion.net — Персонажи</title>
+    <link rel="website icon" type="png"
+    href="./img/NERV icon.png">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <section class="hero" id="home">
+        <div class="overlay"></div>
+        <div class="hero-content text-center text-white">
+            <h1 class="hero-title neon">Добро пожаловать в мир Evangelion</h1>
+            <p class="hero-sub neon-sm">Погрузись в легендарную историю</p>
+        </div>
+    </section>
+
+
+    <header>
+        <h1>Neon Genesis Evangelion</h1>
+        <p class="subtitle">Фан‑сайт, посвящённый персонажам культового аниме</p>
+    </header>
+
+    <section class="video-section" id="video">
+        <h2>🎵 Опенинг</h2>
+        <div class="d-flex justify-content-center">
+            <video controls poster="img/openting-poster.jpg" class="video-player">
+                <source src="./img/A_Cruel_Angels_Thesis_Lyrics_Romaji___Neon_Genesis.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <section class="cards-section" id="characters">
+        <h2>📘 Персонажи</h2>
+        
+        <div class="d-flex flex-column align-items-center">
+            <div class="d-flex align-items-center gap-3">
+                <button id="prevBtn" class="slider-arrow" aria-label="Previous">‹</button>
+                <div class="cards-viewport">
+                    <div id="cardsTrack" class="cards-track">
+                       
+                        <a class="card" href="shinji.html">
+                            <img src="./img/400bdafc-3fcc-4983-aa0f-9c450357dd55_removalai_preview.png" alt="Синдзи Икари">
+                            <div class="card-text">
+                                <h3>Синдзи Икари</h3>
+                                <p>Главный герой. Пилот Евы‑01. Тихий, сомневающийся, ищущий себя.</p>
+                            </div>
+                        </a>
+
+                        <a class="card" href="rei.html">
+                            <img src="./img/rei-removebg-preview.png" alt="Аянами Рей">
+                            <div class="card-text">
+                                <h3>Аянами Рей</h3>
+                                <p>Таинственная и молчаливая, связана с Евангелионом и с судьбой.</p>
+                            </div>
+                        </a>
+
+                        <a class="card" href="asuka.html">
+                            <img src="./img/asuka-removebg-preview.png" alt="Сорью Аска Лэнгли">
+                            <div class="card-text">
+                                <h3>Сорью Аска Лэнгли</h3>
+                                <p>Гордая, уверенная, но с внутренними страхами. Пилотка Евы‑02.</p>
+                            </div>
+                        </a>
+
+                        <a class="card" href="kaoru.html">
+                            <img src="./img/tumblr_mburi1lakX1rnod4co1_1280 (1).png" alt="Каору Нагиса">
+                            <div class="card-text">
+                                <h3>Каору Нагиса</h3>
+                                <p>Загадочный, спокойный, принимает мир с улыбкой. Понимает других лучше, чем они сами.</p>
+                            </div>
+                        </a>
+
+                        <a class="card" href="misato.html">
+                            <img src="./img/CITYPNG_COMHD_Misato_Katsuragi_Neon_Genesis_Evangelion_PNG_2700x2700.png" alt="Кацураги Мисато">
+                            <div class="card-text">
+                                <h3>Кацураги Мисато</h3>
+                                <p>Внешне сильная и беззаботная, внутри — полна боли и чувства вины. Живёт между долгом и желанием быть любимой.</p>
+                            </div>
+                        </a>
+
+                        <a class="card" href="kaji.html">
+                            <img src="./img/Ryoji_Kaji.png" alt="Рюджи Каджи" class="kajicard">
+                            <div class="card-text">
+                                <h3>Рюджи Каджи</h3>
+                                <p>Обаятельный и умный, всегда играет свою игру. Ценит истину и любовь, даже если это стоит жизни.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <button id="nextBtn" class="slider-arrow" aria-label="Next">›</button>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section class="facts-section py-5 container" id="facts">
+        <h2 class="text-center mb-4"> Интересные факты</h2>
+        <div class="row g-4">
+            <div class="col-lg-7">
+                <div class="accordion" id="factsAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="factOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Факт 1 — Название и стиль
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="factOne" data-bs-parent="#factsAccordion">
+                            <div class="accordion-body">Название "Neon Genesis Evangelion" сочетает в себе научно-фантастическую символику и религиозные аллюзии — это одна из причин культового статуса сериала.</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="factTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Факт 2 — Музыка
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="factTwo" data-bs-parent="#factsAccordion">
+                            <div class="accordion-body">Опенинг "A Cruel Angel's Thesis" стал одним из самых узнаваемых треков аниме и популяризовал музыкальный стиль японских опенингов по всему миру.</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="factThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Факт 3 — Символика
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="factThree" data-bs-parent="#factsAccordion">
+                            <div class="accordion-body">Сериал богат религиозной и психологической символикой: имена, термины и образы часто имеют глубокие подтексты.</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="factFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Факт 4 — Влияние
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="factFour" data-bs-parent="#factsAccordion">
+                            <div class="accordion-body">Evangelion оказал большое влияние на развитие жанра меха и на многих создателей игр, аниме и кино по всему миру.</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="factFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Факт 5 — Культурные отсылки
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="factFive" data-bs-parent="#factsAccordion">
+                            <div class="accordion-body">В сериале много отсылок к западной культуре, мифологии и философии — это делает его интересным для многократного анализа.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="quote-card p-4 bg-dark text-white rounded">
+                    <h3 class="mb-3 neon-sm">Случайная цитата</h3>
+                    <p id="quoteText" class="lead">«Человека не определяет один поступок, а тот путь, который он выбирает.»</p>
+                    <div class="d-flex gap-2">
+                        <button id="newQuoteBtn" class="btn btn-outline-danger">Ещё цитата</button>
+                        <a href="#characters" class="btn btn-danger">Персонажи</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="timeline-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 neon">ХРОНОЛОГИЯ Evangelion</h2>
+            <p class="text-center mb-4 muted">Краткая историческая лента ключевых событий и релизов.</p>
+
+            <div class="d-flex align-items-center justify-content-center gap-3">
+                <button id="tlPrev" class="slider-arrow" aria-label="Prev timeline">‹</button>
+                <div class="timeline-viewport">
+                    <div id="timelineTrack" class="timeline-track">
+                        <div class="timeline-item" data-title="TV Premiere" data-year="1995" data-desc="Премьера сериала Neon Genesis Evangelion. Серия сразу привлекла внимание сложной символикой и темами взросления." data-img="img/5815569818718416140.jpg">
+                            <div class="ti-year">1995</div>
+                            <div class="ti-title">TV Premiere</div>
+                        </div>
+
+                        <div class="timeline-item" data-title="End of Evangelion" data-year="1997" data-desc="Выпуск полнометражного фильма, ставшего важной вехой в истории франшизы." data-img="img/asuka.jpg">
+                            <div class="ti-year">1997</div>
+                            <div class="ti-title">End of Evangelion</div>
+                        </div>
+
+                        <div class="timeline-item" data-title="Rebuild starts" data-year="2007" data-desc="Начало цикла 'Rebuild of Evangelion' — новая адаптация классической истории." data-img="img/kaoruss.png">
+                            <div class="ti-year">2007</div>
+                            <div class="ti-title">Rebuild</div>
+                        </div>
+
+                        <div class="timeline-item" data-title="New films" data-year="2012" data-desc="Выход дополнительных фильмов и переизданий, продолжение интереса фанатов." data-img="img/reichair.jpg">
+                            <div class="ti-year">2012</div>
+                            <div class="ti-title">Films & Reissues</div>
+                        </div>
+
+                        <div class="timeline-item" data-title="Fan Projects" data-year="2025" data-desc="Рост фан-проектов и вики-сообществ. Этот сайт — часть фанатского движения." data-img="img/NERV icon.png">
+                            <div class="ti-year">2025</div>
+                            <div class="ti-title">Fan Projects</div>
+                        </div>
+                    </div>
+                </div>
+                <button id="tlNext" class="slider-arrow" aria-label="Next timeline">›</button>
+            </div>
+
+            <div class="text-center mt-3">
+                <small class="muted">Кликните по событию, чтобы получить подробности.</small>
+            </div>
+        </div>
+
+
+        <div id="timelineModal" class="timeline-modal" aria-hidden="true">
+            <div class="tm-content">
+                <button id="tmClose" class="tm-close">×</button>
+                <div class="tm-image"></div>
+                <h3 id="tmTitle"></h3>
+                <p id="tmYear" class="muted"></p>
+                <p id="tmDesc"></p>
+            </div>
+        </div>
+    </section>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        
+        (function(){
+            const track = document.getElementById('cardsTrack');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const cardWidth = () => track.querySelector('.card').getBoundingClientRect().width + 18; 
+
+            
+            function snapToStart(){
+                
+            }
+
+            function moveNext(){
+                const w = cardWidth();
+                track.style.transition = 'transform 400ms ease';
+                track.style.transform = `translateX(-${w}px)`;
+                track.addEventListener('transitionend', function handler(){
+                    track.style.transition = 'none';
+                    track.appendChild(track.firstElementChild);
+                    track.style.transform = 'translateX(0)';
+                    track.removeEventListener('transitionend', handler);
+                });
+            }
+
+            function movePrev(){
+                const w = cardWidth();
+                track.style.transition = 'none';
+                track.insertBefore(track.lastElementChild, track.firstElementChild);
+                track.style.transform = `translateX(-${w}px)`;
+               
+                void track.offsetWidth;
+                track.style.transition = 'transform 400ms ease';
+                track.style.transform = 'translateX(0)';
+            }
+
+            nextBtn.addEventListener('click', moveNext);
+            prevBtn.addEventListener('click', movePrev);
+        })();
+    </script>
+    <script>
+       
+        (function(){
+            const quotes = [
+                '«Человека не определяет один поступок, а тот путь, который он выбирает.»',
+                '«Иногда сила — это просто способность жить дальше.»',
+                '«Там, где страх, может родиться мужество.»',
+                '«Связи между людьми сложнее, чем схемы управления машинами.»',
+                '«Мы — сумма наших воспоминаний и желаний.»'
+            ];
+            const qEl = document.getElementById('quoteText');
+            const btn = document.getElementById('newQuoteBtn');
+            btn.addEventListener('click', function(){
+                const r = quotes[Math.floor(Math.random()*quotes.length)];
+                qEl.textContent = r;
+            });
+        })();
+    </script>
+    <script>
+        
+        (function(){
+            const track = document.getElementById('timelineTrack');
+            const prev = document.getElementById('tlPrev');
+            const next = document.getElementById('tlNext');
+            const viewport = document.querySelector('.timeline-viewport');
+            const modal = document.getElementById('timelineModal');
+            const tmClose = document.getElementById('tmClose');
+
+            function itemWidth(){
+                const el = track.querySelector('.timeline-item');
+                return el ? el.getBoundingClientRect().width + 18 : 260;
+            }
+
+            next.addEventListener('click', ()=>{
+                const w = itemWidth();
+                track.style.transition = 'transform 450ms ease';
+                track.style.transform = `translateX(-${w}px)`;
+                track.addEventListener('transitionend', function h(){
+                    track.style.transition = 'none';
+                    track.appendChild(track.firstElementChild);
+                    track.style.transform = 'translateX(0)';
+                    track.removeEventListener('transitionend', h);
+                });
+            });
+
+            prev.addEventListener('click', ()=>{
+                const w = itemWidth();
+                track.style.transition = 'none';
+                track.insertBefore(track.lastElementChild, track.firstElementChild);
+                track.style.transform = `translateX(-${w}px)`;
+                void track.offsetWidth;
+                track.style.transition = 'transform 450ms ease';
+                track.style.transform = 'translateX(0)';
+            });
+
+            
+            track.addEventListener('click', (e)=>{
+                const it = e.target.closest('.timeline-item');
+                if(!it) return;
+                const title = it.dataset.title || it.querySelector('.ti-title')?.textContent;
+                const year = it.dataset.year || it.querySelector('.ti-year')?.textContent;
+                const desc = it.dataset.desc || '';
+                const img = it.dataset.img || '';
+                document.getElementById('tmTitle').textContent = title;
+                document.getElementById('tmYear').textContent = year;
+                document.getElementById('tmDesc').textContent = desc;
+                document.querySelector('.tm-image').style.backgroundImage = img?`url(${img})`:'none';
+                modal.classList.add('active');
+                modal.setAttribute('aria-hidden','false');
+            });
+
+            tmClose.addEventListener('click', ()=>{ modal.classList.remove('active'); modal.setAttribute('aria-hidden','true'); });
+            modal.addEventListener('click', (e)=>{ if(e.target===modal) { modal.classList.remove('active'); modal.setAttribute('aria-hidden','true'); } });
+        })();
+    </script>
+</body>
+
+    <footer>
+        <p>Evangelion Wiki Fan Project © 2025</p>
+    </footer>
+
+</html>
